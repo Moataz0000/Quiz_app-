@@ -10,8 +10,7 @@ This is a Django-based API for managing a quiz app. It includes functionalities 
   - [Question Endpoints](#question-endpoints)
   - [Answer Endpoints](#answer-endpoints)
   - [Check Answer Endpoint](#check-answer-endpoint)
-- [Usage Example](#usage-example)
-- [Authentication](#authentication)
+
 
 ## Installation
 
