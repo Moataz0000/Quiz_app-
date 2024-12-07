@@ -1,4 +1,4 @@
-# Quiz App API Documentation
+# Quiz App API 
 
 ## Overview
 
