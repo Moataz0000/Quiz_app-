@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Django-based API for managing a quiz app. It includes functionalities to manage questions and answers, and to check if the user's selected answer is correct. The app allows admins to create, read, update, and delete questions and answers, and it provides an endpoint for users to submit answers and verify their correctness.
+This is a Django-based API for managing a quiz app. It includes functionalities to manage questions and answers and to check if the user's selected answer is correct. The app allows admins to create, read, update, and delete questions and answers, providing an endpoint for users to submit answers and verify their correctness.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -64,19 +64,20 @@ Make sure you have the following installed:
 
 ## API Endpoints
 
-### Question Endpoints
+### Question Endpoints Example 
 
 - **GET /api/questions/**  
   Fetch all available questions.
 
   **Response:**
   ```json
- {
-        "question": "What is Django",
-        "uuid": "df7ae7dd-f2c9-4dfe-8273-67b899c3135c",
-        "created": "2024-12-07T13:49:12.054809Z",
-        "available": true,
-        "answers": [
+   [
+    {
+      "uuid": "uuid-value",
+      "question": "What is the capital of France?",
+      "created": "2024-12-01T12:00:00Z",
+      "available": true
+      "answers": [
             {
                 "answer": "no thing",
                 "is_correct": false,
@@ -101,5 +102,8 @@ Make sure you have the following installed:
                 "uuid": "2ca812f1-03d0-4beb-9bbe-3829926f118e",
                 "created": "2024-12-07T14:01:36.220961Z"
             }
-        ]
-    }
+    },
+
+
+
+   
