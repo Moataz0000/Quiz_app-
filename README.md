@@ -4,6 +4,13 @@
 
 This is a Django-based API for managing a quiz app. It includes functionalities to manage questions and answers and to check if the user's selected answer is correct. The app allows admins to create, read, update, and delete questions and answers, providing an endpoint for users to submit answers and verify their correctness.
 
+
+![Quiz_Service](https://github.com/user-attachments/assets/4b478a75-ddf0-4d35-acf1-5fa7a8dd37fe)
+
+
+
+
+
 ## Table of Contents
 - [Installation](#installation)
 - [API Endpoints](#api-endpoints)
