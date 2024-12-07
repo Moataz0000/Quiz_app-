@@ -73,7 +73,7 @@ Make sure you have the following installed:
    [
     {
       "uuid": "uuid-value",
-      "question": "What is the capital of France?",
+      "question": "What is Django?",
       "created": "2024-12-01T12:00:00Z",
       "available": true
       "answers": [
